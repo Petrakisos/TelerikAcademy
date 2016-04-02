@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord", "HelloWord\HelloWord.csproj", "{4BD9ECF9-0453-4CA8-B867-F9EC947B52DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintMyName", "PrintMyName\PrintMyName.csproj", "{10AA71EF-49F2-4C3C-A5BA-47C73181BF5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4BD9ECF9-0453-4CA8-B867-F9EC947B52DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BD9ECF9-0453-4CA8-B867-F9EC947B52DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BD9ECF9-0453-4CA8-B867-F9EC947B52DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10AA71EF-49F2-4C3C-A5BA-47C73181BF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10AA71EF-49F2-4C3C-A5BA-47C73181BF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10AA71EF-49F2-4C3C-A5BA-47C73181BF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10AA71EF-49F2-4C3C-A5BA-47C73181BF5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
