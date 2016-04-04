@@ -1,10 +1,10 @@
 ﻿using System;
 
-class PrintSequence
+class LongSequence
 {
     static void Main()
     {
-        for (int i = 2; i <= 11; i++)
+        for (int i = 2; i < 1002; i++)
         {
             if (i % 2 == 0)
             {
@@ -15,6 +15,5 @@ class PrintSequence
                 Console.WriteLine(-i);
             }
         }
-
     }
 }
