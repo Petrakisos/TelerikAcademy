@@ -14,18 +14,18 @@ class FloatOrDouble
         double num3;    //8923.1234857
         double num4;    //34.567839023
 
-        num1 = 12.345f; //give value for varialbe
+        num1 = 12.345f; // assing  value
         Console.WriteLine(num1);
-        num2 = 3456.091f;   //give value for varialbe
+        num2 = 3456.091f;   // assing  value
         Console.WriteLine(num2);
-        num3 = 8923.1234857f;   //give value for varialbe
+        num3 = 8923.1234857f;   // assing  value
         Console.WriteLine(num3);
-        num4 = 34.567839023;    //give value for varialbe
+        num4 = 34.567839023;    // assing  value
         Console.WriteLine(num4);
-        num1 = 1.111111f; // changed varialbe value
-        num2 = 2.222222f;   // changed varialbe value
-        num3 = 3.33333333333333;    // changed varialbe value
-        num4 = 4.44444444444444;    // changed varialbe value
+        num1 = 1.111111f; // assing new value
+        num2 = 2.222222f;   // assing new value
+        num3 = 3.33333333333333;    // assing new value
+        num4 = 4.44444444444444;    // assing new value
         Console.WriteLine("{0} {1} {2} {3}" , num1, num2, num3, num4);
     }
 }

@@ -16,21 +16,21 @@ class DeclareVarialbes
         ushort num4;    //52130 Declarate varible
         int num5;   //4825932 Declarate varible
 
-        num1 = -10000; // give it value
+        num1 = -10000; // assing value
         Console.WriteLine(num1);
-        num2 = -115;    // give it value
+        num2 = -115;    // assing value
         Console.WriteLine(num2);
-        num3 = 97;  // give it value
+        num3 = 97;  // assing value
         Console.WriteLine(num3);
-        num4 = 52130;   // give it value
+        num4 = 52130;   // assing value
         Console.WriteLine(num4);
-        num5 = 4825932; // give it value
+        num5 = 4825932; // assing value
         Console.WriteLine(num5);
-        num1 = 1;   // value changed
-        num2 = 2;   // value changed
-        num3 = 3;   // value changed
-        num4 = 4;   // value changed
-        num5 = 5;   // value changed
+        num1 = 1;   // assing new value
+        num2 = 2;   // assing new value
+        num3 = 3;   // assing new value
+        num4 = 4;   // assing new value
+        num5 = 5;   // assing new value
         Console.WriteLine("{0} {1} {2} {3} {4}", num1, num2, num3, num4, num5);
     }
 }
