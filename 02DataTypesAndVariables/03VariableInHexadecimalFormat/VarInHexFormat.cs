@@ -9,9 +9,11 @@ class VarInHexFormat
 {
     static void Main()
     {
-        int decNum;
-        decNum = 254;
-        string hexValue = decNum.ToString("X");
-        Console.WriteLine(hexValue);
+        int decNum; // declare integer
+        decNum = 254;   // assing value
+        string hexValue = decNum.ToString("X"); // convert int as a hex in a string var
+        Console.WriteLine(hexValue); // print
+        int decValue = int.Parse(hexValue, System.Globalization.NumberStyles.HexNumber); // convert hex back to demical
+        Console.WriteLine(decValue); // print
     }
 }
