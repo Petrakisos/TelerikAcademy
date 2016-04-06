@@ -20,15 +20,15 @@ class ComparingFloats
         
         double a = double.Parse(Console.ReadLine());
         double b = double.Parse(Console.ReadLine());
-        double equal = a - b;
+        double equal = Math.Abs(a - b);
         double eps = 0.000001;
         if (equal > eps)
         {
-            Console.WriteLine("true");
+            Console.WriteLine("false");
         }
         else
         {
-            Console.WriteLine("false");
+            Console.WriteLine("true");
         }
     }
 }
