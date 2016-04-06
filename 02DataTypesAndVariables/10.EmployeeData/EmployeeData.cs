@@ -16,10 +16,14 @@ class EmployeeData
 {
     static void Main()
     {
-
+        byte age;
         Console.WriteLine("Please write First Name:");
         string fName = Console.ReadLine();
         Console.WriteLine("Please write Last Name:");
-        string lName = Console.ReadLine(); 
+        string lName = Console.ReadLine();
+        for (int i = 0; i <= 100;);
+        {
+            
+        } 
     }
 }
