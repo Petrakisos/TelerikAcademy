@@ -21,7 +21,7 @@ class EmployeeData
         string fName = Console.ReadLine();
         Console.WriteLine("Please write Last Name:");
         string lName = Console.ReadLine();
-        for (int i = 0; i <= 100;);
+        for (int i = 0; i <= 100; i++);
         {
             
         } 
