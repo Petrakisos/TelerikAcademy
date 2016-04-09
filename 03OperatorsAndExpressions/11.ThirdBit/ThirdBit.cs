@@ -3,8 +3,7 @@
 class ThirdBit
 {
     static void Main()
-    {
-        
+    { 
         uint inputNumber = uint.Parse(Console.ReadLine());
         uint mask = 1 << 3;
         uint bit = inputNumber & mask;
