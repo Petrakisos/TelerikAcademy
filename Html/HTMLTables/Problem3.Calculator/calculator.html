@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <style>
+    form input {
+       width: 100%;
+       height: 35px;
+       border: 1px solid black;
+    }
+    button {
+      padding: 1px 1px 1px 1px;
+      background-color: white;
+      border: 1px solid white;
+    }
+      img {
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+      <form name="Calculator">
+        <table>
+          <tr>
+            <td colspan=4><input type=text name="display"></td>
+          </tr>
+          <tr>
+            <td><button type="button" value="(" OnClick="Calculator.display.value='('"><img src="images/(.png" alt="("/></button></td>
+            <td><button type="button" value=")" OnClick="Calculator.display.value=')'"><img src="images/).png" alt=")"/></button></td>
+            <td><button type="button" value="MR" OnClick="Calculator.display.value='MR'"><img src="images/MR.png" alt="MR"/></button></td>
+            <td><button type="button" value="CE" OnClick="Calculator.display.value=''"><img src="images/C.png" alt="C"/></button></td>
+          </tr>
+          <tr>
+            <td><button type="button" value="7" OnClick="Calculator.display.value+='7'"><img src="images/7.png" alt="7"/></button></td>
+            <td><button type="button" value="8" OnClick="Calculator.display.value+='8'"><img src="images/8.png" alt="8"/></button></td>
+            <td><button type="button" value="9" OnClick="Calculator.display.value+='9'"><img src="images/9.png" alt="9"/></button></td>
+            <td><button type="button" value="/" OnClick="Calculator.display.value+='/'"><img src="images/Divide.png" alt="Divide"/></button></td>
+          </tr>
+          <tr>
+            <td><button type="button" value="4" OnClick="Calculator.display.value+='4'"><img src="images/4.png" alt="4"/></button></td>
+            <td><button type="button" value="5" OnClick="Calculator.display.value+='5'"><img src="images/5.png" alt="5"/></button></td>
+            <td><button type="button" value="6" OnClick="Calculator.display.value+='6'"><img src="images/6.png" alt="6"/></button></td>
+            <td><button type="button" value="x" OnClick="Calculator.display.value+='*'"><img src="images/Multiply.png" alt="Multiply"/></button></td>
+          <tr>
+            <td><button type="button" value="1" OnClick="Calculator.display.value+='1'"><img src="images/1.png" alt="1"/></button></td>
+            <td><button type="button" value="2" OnClick="Calculator.display.value+='2'"><img src="images/2.png" alt="2"/></button></td>
+            <td><button type="button" value="3" OnClick="Calculator.display.value+='3'"><img src="images/3.png" alt="3"/></button></td>
+            <td><button type="button" value="-" OnClick="Calculator.display.value+='-'"><img src="images/Minus.png" alt="Minus"/></button></td>
+          </tr>
+          <tr>
+            <td><button type="button" value="0" OnClick="Calculator.display.value+='0'"><img src="images/Zero.png" alt="Zero"/></button></td>
+            <td><button type="button" value="." OnClick="Calculator.display.value+='.'"><img src="images/Dot.png" alt="Dot"/></button></td>
+            <td><button type="button" value="+" OnClick="Calculator.display.value+='+'"><img src="images/Plus.png" alt="Plus"/></button></td>
+            <td><button type="button" value="=" OnClick="Calculator.display.value=eval(Calculator.display.value)"><img src="images/Equal.png" alt="Equal"/></button></td>
+          </tr>
+        </table>
+      </form>
+  </body>
+</html>
