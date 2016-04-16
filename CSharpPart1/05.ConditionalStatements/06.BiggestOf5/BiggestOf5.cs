@@ -10,41 +10,58 @@ class BiggestOf5
         double d = double.Parse(Console.ReadLine());
         double e = double.Parse(Console.ReadLine());
 
-        if (a >= b)
+        double biggestNum;
+        if (a > b && a > c && a > d && a > e)
         {
-            if (a >= c)
-            {
-                Console.WriteLine(a + " 1");
-            }
-            else
-                Console.WriteLine(c + " 2");
+            biggestNum = a;
         }
         else
         {
-            if (b >= c)
+            if (b > a && b > c && b > d && b > e)
             {
-                Console.WriteLine(b + " 3");
+                biggestNum = b;
             }
             else
-                Console.WriteLine(c + " 4");
-        }
-        if (d <= e)
-        {
-            if (d <= e)
             {
-                Console.WriteLine(c + " 5");
+                if (c > a && c > b && c > d && c > e)
+                {
+                    biggestNum = c;
+                }
+                else
+                {
+                    if (d > a && d > b && d > c && d > e)
+                    {
+                        biggestNum = d;
+                    }
+                    else
+                    {
+                        biggestNum = e;
+                    }
+                }
             }
-            else
-                Console.WriteLine(e + " 6");
         }
-        else
-        {
-            if (c >= d)
-            {
-                Console.WriteLine(d + " 7");
-            }
-            else
-                Console.WriteLine(e + " 8");
-        }
+        Console.WriteLine(biggestNum);
+
+        //int counter = 0;
+        //double inputNum = 0;
+        //double biggestNum = 0;
+
+        //for (counter = 0; counter <= 4; counter++)
+        //{
+        //    inputNum = double.Parse(Console.ReadLine());
+
+        //    if (inputNum <= 0)
+        //    {
+        //        biggestNum = inputNum;
+        //    }
+        //    else
+        //    {
+        //        if (inputNum > biggestNum)
+        //        {
+        //            biggestNum = inputNum;
+        //        }
+        //    }
+        //}
+        //Console.WriteLine(biggestNum);
     }
 }
