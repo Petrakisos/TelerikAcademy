@@ -29,5 +29,9 @@ class DigitAsWord
         {
             Console.WriteLine("not a digit");
         }
+        catch (OverflowException)
+        {
+            Console.WriteLine("not a digit");
+        }
     }
 }
