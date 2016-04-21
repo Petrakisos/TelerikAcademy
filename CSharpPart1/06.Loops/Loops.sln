@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.NotDivisibleNumbers", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.MMSAOfNNumbers", "03.MMSAOfNNumbers\03.MMSAOfNNumbers.csproj", "{CA539EF9-2223-4993-A795-1452A5FB7478}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.PrintADeck", "04.PrintADeck\04.PrintADeck.csproj", "{BC1F15E9-1786-4645-9213-8B2B43C52FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Calculate!", "05.Calculate!\05.Calculate!.csproj", "{6C9357F3-95FD-4534-B516-DF419EB5CBC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{CA539EF9-2223-4993-A795-1452A5FB7478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA539EF9-2223-4993-A795-1452A5FB7478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA539EF9-2223-4993-A795-1452A5FB7478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1F15E9-1786-4645-9213-8B2B43C52FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1F15E9-1786-4645-9213-8B2B43C52FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1F15E9-1786-4645-9213-8B2B43C52FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1F15E9-1786-4645-9213-8B2B43C52FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9357F3-95FD-4534-B516-DF419EB5CBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9357F3-95FD-4534-B516-DF419EB5CBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9357F3-95FD-4534-B516-DF419EB5CBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C9357F3-95FD-4534-B516-DF419EB5CBC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
