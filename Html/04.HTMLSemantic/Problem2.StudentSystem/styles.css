@@ -1,0 +1,20 @@
+table {
+    border: 1px solid black;
+}
+table td {
+    border-bottom: 1px solid black;
+}
+img.logo {
+    width: 100px;
+    float: right;
+    margin: 0px 1300px 10px 10px;
+}
+ul.navigation {
+    list-style-type: square;
+}
+ul.login-style {
+    list-style-type: circle;
+}
+header, section, nav, main, form {
+    display: block;
+}

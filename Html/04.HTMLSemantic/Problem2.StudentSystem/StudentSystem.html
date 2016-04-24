@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Student System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="http://eclass.alquds.edu/pluginfile.php/2/course/section/16/student.png" alt="student logo" />
+        <h1>Welcome to our student system</h1>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+        <form class="login" action="index.html" method="post">
+            <ul class="login-style">
+                <li>
+                    <label for="usermail">Email</label>
+                    <input id="usermail" type="email" name="usermail" placeholder="Your e-mail" required="required">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password" placeholder="Your password" required="required">
+                    <input type="submit" name="submit" value="Login">
+                </li>
+            </ul>
+        </form>
+    </nav>
+    <main>
+        <section>
+            <h2>Results of the stutends</h2>
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>Gosho</td>
+                    <td>Petrov</td>
+                    <td>500.00</td>
+                </tr>
+                <tr>
+                    <td>Petar</td>
+                    <td>Petrov</td>
+                    <td>450.00</td>
+                </tr>
+                <tr>
+                    <td>Mihail</td>
+                    <td>Petrov</td>
+                    <td>420.00</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>

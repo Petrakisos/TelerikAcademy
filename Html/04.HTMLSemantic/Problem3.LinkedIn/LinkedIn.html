@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>LinkedIn</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="#">LinkedIn</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">What is LinkedIn</a></li>
+                <li><a href="#">Join Today</a></li>
+                <li>
+                    <form class="login" action="index.html" method="post">
+                        <fieldset class="field-set">
+                            <legend>Sign In</legend>
+                            <ul>
+                                <li>
+                                    <label for="email">Email:</label>
+                                    <input id="email" type="email" name="email" value="" required="required">
+                                </li>
+                                <li>
+                                    <label for="password">Password:</label>
+                                    <input id="password" type="password" name="password" value="" required="required">
+                                </li>
+                                <li>
+                                    <input type="button" name="name" value="Sign In">
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Over 175 million professionals use LinkedIn to exchange information , ideas and opportunities</h2>
+            <ul>
+                <li>Stay informed about your contacts and industry</li>
+                <li>Find the people & knowlegde you need to archieve your goals</li>
+                <li>Control your professional identity online</li>
+            </ul>
+        </article>
+        <section>
+            <h4>Join LinkedIn Today</h4>
+            <form id="register" action="index.html" method="post">
+                <fieldset class="field-set">
+                    <legend>Sing Up</legend>
+                    <ul>
+                        <li>
+                            <label for="firstname">First Name:</label>
+                            <input id="firstname" type="text" name="FirstName" value="" required="required">
+                        </li>
+                        <li>
+                            <label for="lastname">Last Name:</label>
+                            <input id="lastname" type="text" name="LastName" value="" required="required">
+                        </li>
+                        <li>
+                            <label for="mail">Email:</label>
+                            <input id="mail" type="email" name="Email" value="" required="required">
+                        </li>
+                        <li>
+                            <label for="pass">Password:</label>
+                            <input id="pass" type="password" name="Password" value="" required="required" minlength="6">
+                            <p>6 or more characters</p>
+                        </li>
+                    </ul>
+                    <input type="button" name="Join" value="Join Now">
+                    <p>
+                        Already on Linked in? <a href="#">Sign in.</a>
+                    </p>
+                </fieldset>
+            </form>
+            <section>
+                <h4>Search for someone by name:</h4>
+                <form class="search" action="index.html" method="post">
+                    <ul>
+                        <li>
+                            <label for="search-first-name">First Name</label>
+                            <input id="search-first-name" type="text" name="search-first-name" value="" placeholder="First Name" required="required">
+                        </li>
+                        <li>
+                            <label for="search-last-name">Last Name</label>
+                            <input id="search-last-name" type="text" name="search-last-name" value="" placeholder="Last Name" required="required">
+                        </li>
+                    </ul>
+                    <input type="button" name="search-person" value="Go">
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>

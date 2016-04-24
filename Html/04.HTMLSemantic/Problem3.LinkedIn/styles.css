@@ -1,0 +1,6 @@
+main section form ul li input {
+    display: block;
+}
+.field-set {
+    border: 1px solid lightgrey;
+}
