@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SaddyCopper - Evlogi", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Cube - Evlogi", "04.Cube - Evlogi\04.Cube - Evlogi.csproj", "{3896ED13-3081-435D-A6B0-967BF7CBC959}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ThreeNumbers - Niki", "01.ThreeNumbers - Niki\01.ThreeNumbers - Niki.csproj", "{73F600BB-C855-419E-B81C-770925FCAB0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Decoding - Niki", "02.Decoding - Niki\02.Decoding - Niki.csproj", "{D6030878-7CEB-4C46-8C91-48F802A27BEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{3896ED13-3081-435D-A6B0-967BF7CBC959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3896ED13-3081-435D-A6B0-967BF7CBC959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3896ED13-3081-435D-A6B0-967BF7CBC959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F600BB-C855-419E-B81C-770925FCAB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F600BB-C855-419E-B81C-770925FCAB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F600BB-C855-419E-B81C-770925FCAB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F600BB-C855-419E-B81C-770925FCAB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6030878-7CEB-4C46-8C91-48F802A27BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6030878-7CEB-4C46-8C91-48F802A27BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6030878-7CEB-4C46-8C91-48F802A27BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6030878-7CEB-4C46-8C91-48F802A27BEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
