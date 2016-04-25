@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("01.Printing")]
+[assembly: AssemblyTitle("01.Printing-Evlogi")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("01.Printing")]
+[assembly: AssemblyProduct("01.Printing-Evlogi")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("401a599d-ed3c-4ef0-a3a1-670f81aeefa1")]
+[assembly: Guid("5e3e8892-b4da-44bd-8368-16ee20eafd3a")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("01.Money")]
+[assembly: AssemblyTitle("02.TextToNumber - Evlogi")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("01.Money")]
+[assembly: AssemblyProduct("02.TextToNumber - Evlogi")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("09a7d274-df94-4739-a169-c14982b9e80c")]
+[assembly: Guid("1866a6ed-e827-4331-bf7a-ad0555c17f2f")]
 
 // Version information for an assembly consists of the following four values:
 //
