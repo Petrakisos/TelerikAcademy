@@ -4,23 +4,22 @@ class CompareCharArrays
 {
     static void Main()
     {
-        string firstString = Console.ReadLine();
-        string secondString = Console.ReadLine();
+        string first = Console.ReadLine();
+        string second = Console.ReadLine();
 
-        char[] firstChar = firstString.ToCharArray();
-        char[] secondChar = secondString.ToCharArray();
+        int compare = first.CompareTo(second);
 
-        if (firstChar.Length > secondChar.Length)
+        if (compare == 1)
         {
-            Console.WriteLine('>');
+            Console.WriteLine(">");
         }
-        else if (firstChar.Length < secondChar.Length)
+        else if (compare == -1)
         {
-            Console.WriteLine('<');
+            Console.WriteLine("<");
         }
-        else
+        else if (compare == 0)
         {
-            Console.WriteLine('=');
+            Console.WriteLine("=");
         }
     }
 }
