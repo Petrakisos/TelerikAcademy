@@ -9,63 +9,46 @@ class QuickSort
         int[] array = new int[N];
 
         for (int i = 0; i < array.Length; i++)
-        {
             array[i] = int.Parse(Console.ReadLine());
-        }
 
-        QuickSortRecursive(array, 0, array.Length - 1);
+        // Sort the array
+        Quicksort(array, 0, array.Length - 1);
 
+        // Print the sorted array
         for (int i = 0; i < array.Length; i++)
-        {
             Console.WriteLine(array[i]);
-        }
     }
 
-    static public int Partition(int[] numbers, int left, int right)
+    public static void Quicksort(int[] elements, int left, int right)
     {
-        int pivot = numbers[left];
+        int i = left;
+        int j = right;
+        int pivot = elements[(left + right) / 2];
 
-        while (true)
+        while (i <= j)
         {
-            while (numbers[left] < pivot)
-            {
-                left++;
-            }
+            while (elements[i].CompareTo(pivot) < 0)
+                i++;
 
-            while (numbers[right] > pivot)
-            {
-                right--;
-            }
+            while (elements[j].CompareTo(pivot) > 0)
+                j--;
 
-            if (left < right)
+            if (i <= j)
             {
-                int temp = numbers[right];
-                numbers[right] = numbers[left];
-                numbers[left] = temp;
-            }
-            else
-            {
-                return right;
+                // Swap
+                int tmp = elements[i];
+                elements[i] = elements[j];
+                elements[j] = tmp;
+
+                i++;
+                j--;
             }
         }
-    }
+        // Recursive calls
+        if (left < j)
+            Quicksort(elements, left, j);
 
-    static public void QuickSortRecursive(int[] array, int left, int right)
-    {
-
-        if (left < right)
-        {
-            int pivot = Partition(array, left, right);
-
-            if (pivot > 1)
-            {
-                QuickSortRecursive(array, left, pivot - 1);
-            }
-
-            if (pivot + 1 < right)
-            {
-                QuickSortRecursive(array, pivot + 1, right);
-            }
-        }
+        if (i < right)
+            Quicksort(elements, i, right);
     }
 }
