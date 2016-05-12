@@ -1,0 +1,41 @@
+table {
+    background: #535353;
+    font-family: sans-serif;
+}
+tbody {
+    font-size: 11px;
+}
+span {
+    position: relative;
+    left: 110px;
+}
+#dot::before {
+    content: "\25CF";
+    font-size: 20px;
+    color: #70B277;
+}
+.ticket {
+    font-size: 13px;
+    color: #c4c4c4;
+    line-height: 20px;
+}
+.title {
+    width: 110px;
+    color: #FFFFFD;
+    font-style: italic;
+    line-height: 25px;
+}
+.yellow {
+    color: #FBF3B0;
+}
+.red {
+    font-weight: bold;
+    color: #F50D07;
+}
+.orange {
+    font-weight: bold;
+    color: #DA6A17;
+}
+.grey {
+    color: #d6d4d4;
+}

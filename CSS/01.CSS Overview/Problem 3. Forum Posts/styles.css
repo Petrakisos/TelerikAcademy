@@ -1,0 +1,27 @@
+body {
+    background-color: #999999;
+}
+h1 {
+    text-align: center;
+}
+h1, h2 {
+    color: lightyellow;
+}
+ul {
+    font-size: 18px;
+    list-style-type: none;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    text-align: center;
+}
+.selected a {
+    background-color: lightgrey;
+}
+.postedOn {
+    font-size: 13px;
+}
