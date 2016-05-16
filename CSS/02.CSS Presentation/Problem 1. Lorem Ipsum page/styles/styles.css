@@ -1,0 +1,12 @@
+@font-face{
+	font-family:"Edwardian Script ITC";
+	src:url("../fonts/ITCEDSCR.TTF");
+}
+.post-text {
+ color: #0094ff;
+ font-family: Consolas;
+}
+h4::first-letter{
+  font-family: "Edwardian Script ITC";
+  font-size: 40px;
+}
