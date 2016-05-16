@@ -6,7 +6,10 @@
  color: #0094ff;
  font-family: Consolas;
 }
-h4::first-letter{
+.post-text::first-letter {
   font-family: "Edwardian Script ITC";
   font-size: 40px;
+}
+.post-text:first-line {
+	font-weight: bold;
 }
