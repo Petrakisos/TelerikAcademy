@@ -1,13 +1,10 @@
-p
-{
+p {
     padding: 20px;
 }
-.hide
-{
+.hide {
     display: none;
 }
-div
-{
+div {
     width: 88%;
     background-color: black;
     border: 2px solid red;

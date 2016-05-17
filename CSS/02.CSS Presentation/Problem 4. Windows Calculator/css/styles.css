@@ -114,7 +114,7 @@ button {
     width: 35px;
     color: #1E395B;
     outline: none;
-		background-color: #D9E4F1;
+    background-color: #D9E4F1;
 }
 button:hover {
     background: -moz-linear-gradient(top, #fef4c5 0%, #fce3c7 47%, #e6dd83 52%, #fbeb8d 100%);
@@ -127,7 +127,6 @@ button:active {
     background: -webkit-linear-gradient(top, #f3e074 0%, #f5bb57 52%, #f5bb57 100%);
     background: linear-gradient(to bottom, #f3e074 0%, #f5bb57 52%, #f5bb57 100%);
     border: 1px solid #c29b29;
-
 }
 .special {
     padding: 0;
