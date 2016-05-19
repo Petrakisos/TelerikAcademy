@@ -1,0 +1,23 @@
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+body ul li a {
+    text-decoration: none;
+    color: black;
+}
+.sublist {
+    display: none;
+}
+body ul.list > li > a:hover {
+    text-decoration: underline;
+}
+body ul li:hover > a + ul {
+    display: block;
+    padding: 5px;
+}
+body ul.sublist > li > a {
+    color: grey;
+}
