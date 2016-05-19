@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+span {
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+.music {
+  width: 420px;
+  height: 540px;
+  border-radius: 5px;
+  background-color: #EEEEEE;
+}
+.categorylist {
+  border: 1px solid silver;
+}
+div {
+  display: block;
+  margin: 9% 2%;
+  height: 120px;
+  background-color: white;
+}
+.paragraphs {
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    margin: 4% 9%;
+}
+p > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+body aside div img {
+  display: block;
+  float: left;
+  border: 1px solid grey;
+  margin: 4% 4%;
+}
+.btnlisten, .add {
+  margin-right: 1%;
+  border: none;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  width: 76px;
+  height: 25px;
+  background-image: url("../images/btnlisten.png");
+}
+.add {
+  width: 63px;
+  background-image: url("../images/btnadd.png");
+}
+.bigger {
+  height: 130px;
+}
