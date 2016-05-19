@@ -10,7 +10,7 @@ span {
 }
 .music {
   width: 420px;
-  height: 540px;
+  height: 560px;
   border-radius: 5px;
   background-color: #EEEEEE;
 }
@@ -57,5 +57,5 @@ body aside div img {
   background-image: url("../images/btnadd.png");
 }
 .bigger {
-  height: 130px;
+  height: 135px;
 }
