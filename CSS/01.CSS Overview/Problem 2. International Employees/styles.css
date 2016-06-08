@@ -1,0 +1,37 @@
+table, thead, th {
+    font-family: Tahoma;
+    border: 1px solid grey;
+    padding: 5px 5px 5px 5px;
+    border-collapse: collapse;
+    width: 500px;
+}
+thead {
+    background-color: #4FB303;
+}
+th {
+    text-align: left;
+    font-size: 12px;
+    color: white;
+    font-weight: normal;
+}
+td {
+    font-size: 12px;
+    padding-left: 7px;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+}
+tr:nth-child(2n) {
+    background-color: #E8EAD5;
+}
+.germany::before {
+    content: url(flags/germany.png);
+    padding-right: 5px;
+}
+.mexico::before {
+    content: url(flags/mexico.png);
+    padding-right: 5px;
+}
+.uk::before {
+    content: url(flags/uk.png);
+    padding-right: 5px;
+}
